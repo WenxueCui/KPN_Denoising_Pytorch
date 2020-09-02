@@ -20,14 +20,14 @@ Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-K
 
 ## How to Run
 
-### Training CSNet
+### Training
 * Preparing the dataset for training
 
 * For training:
 
 ```python train_eval.py```
 
-### Testing CSNet
+### Testing
 * Preparing the dataset for testing
 
 * For testing:
@@ -35,7 +35,7 @@ Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-K
 ```python train_eval --eval```
 
 
-## CSNet results
+## Experimental results
 ### Subjective results
 
 ![image](https://github.com/WenxueCui/KPN_Denoising_Pytorch/raw/master/images/result1.png)
