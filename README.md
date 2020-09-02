@@ -2,6 +2,9 @@
 
 Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-Kernel Prediction Networks (MKPN) for Denoising of Image Burst by using PyTorch.
 
+## KPN Framework
+
+![image](https://github.com/WenxueCui/KPN_Denoising_Pytorch/raw/master/images/framework.jpg)
 
 ## Requirements and Dependencies
 
@@ -44,7 +47,7 @@ In our code, two model version are included:
 ## CSNet results
 ### Subjective results
 
-![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/results.jpg)
+![image](https://github.com/WenxueCui/KPN_Denoising_Pytorch/raw/master/images/result1.jpg)
 
 ### Objective results
 ![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/table.jpg)
