@@ -23,24 +23,17 @@ Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-K
 ### Training CSNet
 * Preparing the dataset for training
 
-* Editing the path of training data in file `train.py`.
+* For training:
 
-* For CSNet training in terms of subrate=0.1:
-
-```python train.py --sub_rate=0.1 --block_size=32```
+```python train_eval.py```
 
 ### Testing CSNet
 * Preparing the dataset for testing
 
-* Editing the path of trained model in file `test.py`.
+* For testing:
 
-* For CSNet testing in terms of subrate=0.1:
+```python train_eval --eval```
 
-```python test.py --sub_rate=0.1 --block_size=32```
-
-* For CSNet testing (new testing code) in terms of subrate=0.1:
-
-```python test_new.py --cuda --sub_rate=0.1 --block_size=32```
 
 ## CSNet results
 ### Subjective results
