@@ -18,13 +18,6 @@ Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-K
 * Pytorch 1.1.0   
 * Torchvision 0.2.2
 
-## Details of Implementations
-
-In our code, two model version are included:
-
-* simple version of CSNet (Similar with paper ICME2017)
-* Enhanced version of CSNet (local skip connection + global skip connection + resudial learning)
-
 ## How to Run
 
 ### Training CSNet
@@ -54,13 +47,8 @@ In our code, two model version are included:
 
 ![image](https://github.com/WenxueCui/KPN_Denoising_Pytorch/raw/master/images/result1.png)
 
-### Objective results
-![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/table.jpg)
-
 ## Additional instructions
 
-* For training data, you can choose any natural image dataset.
-* The training data is very important, if you can not achieve ideal result, maybe you can focus on the augmentation of training data or the structure of the network.
 * If you like this repo, Star or Fork to support my work. Thank you.
 * If you have any problem for this code, please email: wenxuecui@stu.hit.edu.cn
 
