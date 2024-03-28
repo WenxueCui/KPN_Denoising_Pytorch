@@ -43,5 +43,5 @@ Reimplement of Burst Denoising with Kernel Prediction Networks (KPN) and Multi-K
 ## Additional instructions
 
 * If you like this repo, Star or Fork to support my work. Thank you.
-* If you have any problem for this code, please email: wenxuecui@stu.hit.edu.cn
+* If you have any problem for this code, please email: wxcui@hit.edu.cn
 
